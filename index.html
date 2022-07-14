@@ -1,11 +1,16 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="app.js"></script>
         <title>Angular course</title>
     </head>
-    <body>
+    <body ng-app="App">
         <h1>
             Hello World!
         </h1>
+        <div ng-controller="Controller">
+            {{name}}
+        </div>
     </body>
 </html>
